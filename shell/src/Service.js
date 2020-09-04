@@ -3,7 +3,7 @@ import * as React from "react"
 export const Context = React.createContext(undefined)
 
 function useService() {
-  const [service, setService] = React.useState({ title: "Is this Shit set?" })
+  const [service, setService] = React.useState({ title: "Title from Context" })
 
   return {
     ...service,
